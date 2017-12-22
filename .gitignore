@@ -1,0 +1,15 @@
+user/pages/03.nagrania/*
+user/pages/04.plyta-tygodnia/*
+user/pages/05.radio/01.radiowcy/*
+user/pages/05.radio/03.audycje/*
+robots.txt
+user/config/security.yaml
+user/accounts/
+backup/
+!user/pages/03.nagrania/nagrania.md
+!user/pages/04.plyta-tygodnia/plyty.md
+!user/pages/05.radio/01.radiowcy/AzIdG3liS9YBbPX.jpg
+!user/pages/05.radio/01.radiowcy/ludzie.md
+!user/pages/05.radio/03.audycje/h6mweUH4Oa8DpZM.jpg
+!user/pages/05.radio/03.audycje/audycje.md
+
