@@ -20,7 +20,7 @@ $(document).ready(function() {
 		var htmlarray = htmlstring.split('/');
 		//for ( a in htmlarray) { console.log(htmlarray[a]); }
 		//console.log('htmlstring: '+htmlstring);
-		if (htmlstring === 'https://listen.radioaktywne.pl/' || (htmlarray.length < 5 && htmlarray[3]=='')){ 	// DO ZMIANY
+		if (htmlstring === 'https://radioaktywne.pl/' || (htmlarray.length < 5 && htmlarray[3]=='')){ 	// DO ZMIANY
 			//console.log('/'+htmlarray[2]);
 			linkTo('/',null,false);
 			loadTitle('/');
