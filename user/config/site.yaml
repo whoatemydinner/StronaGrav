@@ -1,4 +1,4 @@
-title: 'Radio Aktywne'
+title: 'Radio Aktywne devenv1'
 default_lang: en
 author:
   name: 'Maksymilian Szczepańczyk'
@@ -7,7 +7,7 @@ taxonomies:
   - category
   - tag
 metadata:
-  description: 'Radio Aktywne - studenckie radio Politechniki Warszawskiej'
+  description: 'Radio Aktywne - devenv klon1'
 summary:
   enabled: true
   format: short
