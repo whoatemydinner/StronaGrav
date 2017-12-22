@@ -1,6 +1,6 @@
 var mainloaded = false;
 $(document).ready(function() {
-	if ($(location).attr('href') === 'https://radioaktywne.pl/'){	// DO ZMIANY
+	if ($(location).attr('href') === 'http://listen.radioaktywne.pl:888/'){	// DO ZMIANY
 	mainloaded = true;
 	//console.log('mainloaded='+mainloaded);
 	}
@@ -20,7 +20,7 @@ $(document).ready(function() {
 		var htmlarray = htmlstring.split('/');
 		//for ( a in htmlarray) { console.log(htmlarray[a]); }
 		//console.log('htmlstring: '+htmlstring);
-		if (htmlstring === 'https://listen.radioaktywne.pl/' || (htmlarray.length < 5 && htmlarray[3]=='')){ 	// DO ZMIANY
+		if (htmlstring === 'http://listen.radioaktywne.pl:888/' || (htmlarray.length < 5 && htmlarray[3]=='')){ 	// DO ZMIANY
 			//console.log('/'+htmlarray[2]);
 			linkTo('/',null,false);
 			loadTitle('/');
@@ -156,7 +156,7 @@ function loadContent(target,url,from, push=true){
 		}
 		});
 	} else {
-		$('#nagrania-box').load('https://radioaktywne.pl/ #nagrania-box .grid-box-content', function() { //DO ZMIANY 
+		$('#nagrania-box').load('http://listen.radioaktywne.pl:888/ #nagrania-box .grid-box-content', function() { //DO ZMIANY 
 			$(target).removeClass('invisible');
 		});
 	}
